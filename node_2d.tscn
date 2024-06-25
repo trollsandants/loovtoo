@@ -1,5 +1,14 @@
-[gd_scene format=3 uid="uid://bgk61cueebym4"]
+[gd_scene load_steps=3 format=3 uid="uid://bgk61cueebym4"]
 
-[node name="Node2D" type="Node2D"]
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_8fwwd"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_n2qge"]
+
+[node name="lahe" type="Node2D"]
+material = SubResource("CanvasItemMaterial_8fwwd")
+scale = Vector2(1.9, 1.9)
 
 [node name="Node2D" type="Node2D" parent="."]
+material = SubResource("CanvasItemMaterial_n2qge")
+position = Vector2(128, 47)
+metadata/block = Transform2D(1, 0, 0, 1, 0, 0)
