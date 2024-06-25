@@ -10,5 +10,5 @@ scale = Vector2(1.9, 1.9)
 
 [node name="Node2D" type="Node2D" parent="."]
 material = SubResource("CanvasItemMaterial_n2qge")
-position = Vector2(128, 47)
+position = Vector2(96.3158, -7.89474)
 metadata/block = Transform2D(1, 0, 0, 1, 0, 0)
